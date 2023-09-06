@@ -1,0 +1,120 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{titling}
+\usepackage{titlesec}
+
+% Define colors
+\definecolor{linkblue}{RGB}{0,0,128}
+\definecolor{darkblue}{RGB}{26,13,171}
+\definecolor{sectioncolor}{RGB}{30,70,142}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkblue,
+    urlcolor=linkblue
+}
+
+% Section styling
+\titleformat{\section}
+    {\color{sectioncolor}\normalfont\Large\bfseries}
+    {\color{sectioncolor}\thesection}{1em}{}
+
+% Title setup
+\renewcommand{\maketitle}{
+    \begin{center}
+        \includegraphics[width=2in]{resume.jpg} % Adjust the image filename and width
+        \vspace{-4em}
+        
+        \Huge\textbf{\theauthor}
+    \end{center}
+}
+
+\pagestyle{empty}
+
+\begin{document}
+\title{Sachidananda Tripathy}
+\date{}
+\maketitle
+
+\section*{\color{linkblue}Contact Information}
+\begin{tabular}{l l}
+\textbf{Address:} & Tuni, East Godavari, Andhra Pradesh \\
+\textbf{Phone:} & 6303312125\\
+\textbf{Email:} & \href{mailto:sachidanandatripathy789@gmail.com}{sachidanandatripathy789@gmail.com}
+\end{tabular}
+
+\section*{\color{linkblue}Self-Description}
+I am someone who loves to learn new things and I am very passionate about coding. I enjoy trying to keep myself updated with the latest developments in technology, which inspires me to constantly improve my skills and learn more.
+
+\section*{\color{linkblue}Education}
+\subsection*{Graduation}
+\textbf{B.TECH}, KL University, 2021-2025\\
+Computer Science and Engineering - Honors
+
+\subsection*{Intermediate}
+\textbf{Vihan Junior College}, Visakhapatnam, 2019-2021\\
+I have achieved a percentage of 95.8 in my academic examination
+
+\subsection*{School}
+\textbf{Akshara Public School}, Tuni, 2018-2019\\
+I have achieved a CGPA of 10 in my academic examination from Board of Secondary Education, AP
+
+\section*{\color{linkblue}Skills}
+\begin{itemize}[label=\textcolor{linkblue}{$\bullet$}]
+    \item Java
+    \item Fundamental C and Python
+    \item Data Structures
+    \item Django
+    \item MERN Stack
+    \item Database Management
+\end{itemize}
+
+\section*{\color{linkblue}Projects}
+\textbf{Banking and Finance}, July-December 2022\\
+This project is a part of our college SDP-1 project. We opted for Django as our backend and ended up acquiring valuable insights into web development, especially given that this is my first project in this field.
+
+\textbf{Food and Hospitality}, January-May 2023\\
+This project is a key part of our college's SDP-2 effort. We decided to use the versatile MERN stack for our backend, and this choice led us to explore the ins and outs of web security. As we progressed, we picked up a wealth of knowledge and hands-on skills in establishing strong security protocols to protect our application and user information.
+
+\section*{\color{linkblue}Certifications}
+\begin{itemize}[label=\textcolor{linkblue}{$\bullet$}]
+    \item AWS Certified Cloud Practitioner Certification\\
+        --- Through this certification, I have gained exposure to various cloud techniques offered by AWS and have successfully passed with a score of 799.
+    \item Red Hat Certified Enterprise Application Developer\\
+        --- Through this certification, I have gained exposure to enterprise programming using Java, which has subsequently aided me in learning Java full stack development.
+    \item Programming in Java, NPTEL\\
+        --- Among top performers of the course with 88 percent marks.
+    \item Design and Analysis of Algorithm\\
+        --- Within the distinguished cohort of 330 individuals who successfully passed the exam, I am humbly grateful to be counted among them, having achieved a score of 61.
+\end{itemize}
+
+\section*{\color{linkblue}Internships}
+\textbf{Social Internship at Swecha}, June 2022\\
+We aim to provide underprivileged government school students with academic resources to overcome barriers to academic success. We have also developed an animated website about the bell ring to facilitate their learning.
+
+\textbf{Virtual Internship,AICTE},may-july 2023\\
+completed internship in Juniper Networking and cloud conducted by AICTE on January 15, 2023.
+
+\section*{\color{linkblue}Known Languages}
+\begin{itemize}[label=\textcolor{linkblue}{$\bullet$}]
+    \item Telugu (Native)
+    \item Hindi
+    \item Oriya
+    \item English
+\end{itemize}
+
+\section*{\color{linkblue}Interests}
+\begin{itemize}[label=\textcolor{linkblue}{$\bullet$}]
+    \item Reading Books
+    \item Playing Chess
+    \item Coding
+    \item Listening to Music
+    \item Watching Sports, Especially Cricket
+\end{itemize}
+
+\end{document}
